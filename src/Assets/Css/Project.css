@@ -1,0 +1,26 @@
+.food a img{
+    height: 200px;
+
+   
+    /* width: 100px; */
+}
+.food{ background-color: white;
+text-align: center;
+flex-wrap: wrap;}
+.project{
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.projects_links p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.projects_links img{
+    width: 100%;
+}
+.projects_links{
+    background-color: white;
+}
+.logo_image img{
+    width: 100%;
+}

@@ -1,0 +1,65 @@
+.about{
+ background-color: white;
+ align-items: center;
+ justify-content: space-evenly;
+}
+.image,.skils,.skils_head,.about_button{
+    background-color: white;
+}
+.exp{
+    background-color: white;
+    text-align: center;
+}
+h2{
+   
+    width: 100px;   
+    margin-left: 13px;
+    background-color: yellow;
+    font-family: fantasy;
+}
+.about{
+    flex-wrap: wrap;
+}
+
+.skils{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:426px) {
+    .skils{
+        justify-content: center;
+    }
+    .skils b{
+        border: 2px solid black;
+        margin: 2px;
+    }
+    .skils_head{
+        margin-top: 20px;
+    }
+}
+.skils b,.skils b i{
+    background-color:yellow;
+}
+.skils b{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.skils b{
+    padding: 10px;
+}
+
+.about_button  button,.about_button  button a{
+    animation: colorChange 5s infinite alternate;
+    text-decoration: none;
+}
+@keyframes colorChange {
+    0% {
+      background-color: #8c7fd6; /* Blue */
+    }
+    50% {
+      background-color: white; /* Red */
+    }
+    100% {
+      background-color: #0ce82a; /* Blue */
+    }
+  }

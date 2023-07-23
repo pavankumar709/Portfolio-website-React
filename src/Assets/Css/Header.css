@@ -1,0 +1,46 @@
+img{
+    background-color: white;
+}
+.image_div{
+    background-color: white;
+}
+.img{
+    height: 45px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 5px;
+}
+.links_mail{
+    background-color: white;
+}
+.image_div a{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    font-family: fantasy;
+}
+a i{
+    margin-right: 5px;
+}
+.links{
+    background-color: white;
+    display: block;
+}
+.links a{
+text-decoration: none;
+background-color: white;
+color: black;
+margin-left: 20px;
+font-family: fantasy;
+}
+.links a i {
+    background-color: white;
+}
