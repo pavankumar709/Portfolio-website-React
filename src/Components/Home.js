@@ -29,7 +29,7 @@ function Home() {
           <div className='d-flex button'>
             {/* this is used for the buttons */}
 
-          <button><Link to={"https://drive.google.com/drive/u/0/folders/1WJnooUFfM7rOUiZeortqWkr20Rk7rRRt"} target='_blank'>Hire Me</Link></button>
+          <button><Link to={"https://drive.google.com/file/d/1DtCBxG1AwTg5Fjzv1GT5zbdqIUkv5ao-/view?usp=sharing"} target='_blank'>Hire Me</Link></button>
           </div>
         </div>
         <div className='image'> 

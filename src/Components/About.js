@@ -16,7 +16,7 @@ function About() {
               and Redux in Building and Maintaining Software and Software Arhitecture<br></br>Highly 
               Skilled in Communication, Collboration, and Technical Documentation.</p>
                         <div className='about_button'>
-                        <button><Link to={"https://drive.google.com/drive/u/0/folders/1WJnooUFfM7rOUiZeortqWkr20Rk7rRRt"} target='_blank'>Hire Me</Link></button>
+                        <button><Link to={"https://drive.google.com/file/d/1DtCBxG1AwTg5Fjzv1GT5zbdqIUkv5ao-/view?usp=sharing"} target='_blank'>Hire Me</Link></button>
                         </div>
               <div className='skils_head'>
                   <h2>Skills</h2>

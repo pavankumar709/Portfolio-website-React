@@ -14,7 +14,7 @@ function Projects() {
           <div className='projects_links'>
                     <Link to={"https://food-app709.netlify.app/"} target='_blank'><img src={food} alt='image is not found'/></Link>
                       <p><b>Food App</b></p>
-                      <Link to={"https://pavankumar709.github.io/Weather.app/"} target='_blank'><img src={wea} alt='image is not found'/></Link>
+                      <Link to={"https://weatherapp709.netlify.app/"} target='_blank'><img src={wea} alt='image is not found'/></Link>
                       <p><b>Weather APP</b></p>
           </div>
             
