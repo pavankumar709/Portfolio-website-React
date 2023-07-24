@@ -44,3 +44,8 @@ font-family: fantasy;
 .links a i {
     background-color: white;
 }
+@media screen and (min-width:344px) {
+    .fa-whatsapp{
+        margin-left: 2px;
+    }
+}
