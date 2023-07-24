@@ -4,6 +4,9 @@ import mainimage from "../Assets/Images/about_logo.png"
 import { Link } from 'react-router-dom'
 
 function About() {
+
+
+  
   return (
     <div>
       <>
@@ -26,6 +29,7 @@ function About() {
                           <b><i class="fa-brands fa-bootstrap"></i>Bootstrap</b>
                           <b><i class="fa-brands fa-bootstrap"></i>JavaScript</b>
                           <b><i class="fa-brands fa-react"></i>React.Js</b>
+                
                   </div>
               </div>
       </div>

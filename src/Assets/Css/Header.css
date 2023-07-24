@@ -33,6 +33,8 @@ a i{
 .links{
     background-color: white;
     display: block;
+   
+    
 }
 .links a{
 text-decoration: none;
@@ -44,8 +46,14 @@ font-family: fantasy;
 .links a i {
     background-color: white;
 }
-@media screen and (min-width:344px) {
+@media screen and (max-width:376px) {
     .fa-whatsapp{
-        margin-left: 2px;
-    }
+        margin-left: 31px;
+        text-align: center; 
+     }
 }
+/* @media screen and (min-width:374px) {
+    .fa-whatsapp{
+        margin-left: 0px;
+     }
+} */
