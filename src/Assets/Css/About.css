@@ -1,65 +1,39 @@
-.about{
- background-color: white;
- align-items: center;
- justify-content: space-evenly;
-}
-.image,.skils,.skils_head,.about_button{
-    background-color: white;
-}
-.exp{
-    background-color: white;
-    text-align: center;
-}
-h2{
-   
-    width: 100px;   
-    margin-left: 13px;
-    background-color: yellow;
-    font-family: fantasy;
-}
-.about{
-    flex-wrap: wrap;
+.about {
+  background-color: white;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: all 0.3s ease;
 }
 
-.skils{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+.exp {
+  background-color: white;
 }
-@media screen and (max-width:426px) {
-    .skils{
-        justify-content: center;
-    }
-    .skils b{
-        border: 2px solid black;
-        margin: 2px;
-    }
-    .skils_head{
-        margin-top: 20px;
-    }
+h2 {
+  width: 100px;
+  margin-left: 13px;
+
+  font-family: fantasy;
 }
-.skils b,.skils b i{
-    background-color:yellow;
-}
-.skils b{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.skils b{
-    padding: 10px;
+.about {
+  flex-wrap: wrap;
 }
 
-.about_button  button,.about_button  button a{
-    animation: colorChange 5s infinite alternate;
-    text-decoration: none;
+.skils {
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-@keyframes colorChange {
-    0% {
-      background-color: #8c7fd6; /* Blue */
-    }
-    50% {
-      background-color: white; /* Red */
-    }
-    100% {
-      background-color: #0ce82a; /* Blue */
-    }
-  }
+
+.skils b,
+.skils b i {
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+}
+.skils b {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.skils b {
+  padding: 10px;
+}

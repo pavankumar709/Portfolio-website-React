@@ -1,75 +1,82 @@
-.image{
-    background-color: white;
-   
+.image {
+  background-color: white;
 }
-.image img{
-    width: 100%;
-}
-
-.Links_social div{
- background-color: white;
+.image img {
+  width: 100%;
 }
 
-@media screen and (max-width:426px) {
-    .Links_social{
+.Links_social {
+  background-color: black !important;
+  border-radius: 15px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Links_social div a {
+  color: white;
+}
+
+@media screen and (max-width: 426px) {
+  .Links_social {
     display: flex;
     justify-content: center;
-}
-.home_main{
+  }
+  .home_main {
     justify-content: center;
+  }
 }
-}
-@media screen and (min-width:426px) {
-    
-.home_main{
+@media screen and (min-width: 426px) {
+  .home_main {
     justify-content: space-between;
+  }
 }
-}
-.Links_social div a,i{
-    background-color: white;
-}
-.home_matter{
-    text-align: center;
-}
-.home_matter,b,h1,p,.home_main,.Links_social{
-    background-color: white;
-}
-b{
-    font-family: fantasy;
-}
-p{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.home_main{
-    align-items: center;
-    
-    flex-wrap: wrap;
-    object-fit: cover;
-}
-.button{
-    justify-content: space-evenly;
-    background-color: white;
-    
-    
-}
-button{
-    background-color: yellow;
-    border: white;
-    padding: 8px;
-    width: 100px;
-        animation: colorChange 5s infinite alternate;
 
+.home_matter {
+  text-align: center;
 }
-button a{
-    background-color: yellow;
-    text-decoration: none;
-    color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
-    animation: colorChange 5s infinite alternate;
+.home_matter,
+b,
+h1,
+p,
+.home_main {
+  background-color: white;
+}
+b {
+  font-family: fantasy;
+}
+p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.home_main {
+  align-items: center;
 
+  flex-wrap: wrap;
+  object-fit: cover;
 }
-button{
-    font-family: serif;
-    font-weight: bold;
+.button {
+  justify-content: space-evenly;
+  background-color: white;
+}
+button {
+  background-color: yellow;
+  border: white;
+  padding: 8px;
+  width: 100px;
+  animation: colorChange 5s infinite alternate;
+}
+button a {
+  background-color: yellow;
+  text-decoration: none;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  animation: colorChange 5s infinite alternate;
+}
+button {
+  font-family: serif;
+  font-weight: bold;
+  border-radius: 10px;
 }
