@@ -8,6 +8,13 @@
   overflow: hidden;
 }
 
+@media screen and (max-width: 770px) {
+  .App {
+    height: 100%;
+    overflow: scroll;
+  }
+}
+
 @-webkit-keyframes scale-in-top {
   0% {
     -webkit-transform: scale(0);

@@ -9,7 +9,7 @@ function Projects() {
   return (
     <div>
       <>
-        <div className="d-flex bg-light project">
+        <div className="d-flex  project">
           <div className="d-flex food">
             <div className="projects_links">
               <Link to={"https://food-app709.netlify.app/"} target="_blank">
@@ -25,10 +25,6 @@ function Projects() {
                 <b>Weather APP</b>
               </p>
             </div>
-          </div>
-
-          <div className="logo_image">
-            <img src={pro_img} alt="" loading="lazy" />
           </div>
         </div>
       </>

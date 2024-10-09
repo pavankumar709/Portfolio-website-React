@@ -17,7 +17,7 @@ function Home() {
         </div>
         <div>
           <Link
-            to={"https://www.linkedin.com/in/pasima-pavan-kumar-a2b273260/"}
+            to={"https://www.linkedin.com/in/pasima-pavan-kumar-a2b273260/  "}
             target="_black"
           >
             <i class="fa-brands fa-linkedin"></i>
@@ -36,7 +36,7 @@ function Home() {
         {/* here completed the lniks setion continue*/}
       </div>
       {/* on this line made two extra div and it come side by side*/}
-      <div className="home_matter col-5">
+      <div className="home_matter col-md-5 col-12">
         <h1>
           <b>Hey, I'M Pavan Kumar</b>
         </h1>

@@ -9,7 +9,6 @@
   background-color: white;
 }
 h2 {
-  width: 100px;
   margin-left: 13px;
 
   font-family: fantasy;
@@ -22,7 +21,6 @@ h2 {
   display: flex;
 
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .skils b,
@@ -36,4 +34,8 @@ h2 {
 }
 .skils b {
   padding: 10px;
+}
+
+.card-main {
+  height: 100% !important;
 }
